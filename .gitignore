@@ -1,0 +1,6 @@
+images/
+.env
+__pycache__/
+message_log.csv
+logs/
+error_log.txt

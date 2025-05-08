@@ -1,0 +1,93 @@
+2025-01-18 19:22:03,938:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-01-18 19:22:03,940:INFO:logging in using static token
+2025-01-18 19:22:05,607:INFO:Shard ID None has connected to Gateway (Session ID: 76bb662ce9f7ae3ff5c08b74a281ddf8).
+2025-01-18 19:25:22,837:ERROR:HTTP error occurred: 400 Client Error: Bad Request for url: https://api.stability.ai/v2beta/stable-image/generate/sd3
+2025-01-18 19:28:15,307:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-01-18 19:28:15,309:INFO:logging in using static token
+2025-01-18 19:28:17,315:INFO:Shard ID None has connected to Gateway (Session ID: 5c602e01876b3080303baeb5d99155ac).
+2025-01-18 19:28:35,513:ERROR:HTTP error occurred: 400 Client Error: Bad Request for url: https://api.stability.ai/v2beta/stable-image/generate/sd3. Details: {'errors': ['content-type: must be multipart/form-data'], 'id': '9b697ccc5ff4dae845c2ab936feff92e', 'name': 'bad_request'}
+2025-01-18 19:29:26,322:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-01-18 19:29:26,325:INFO:logging in using static token
+2025-01-18 19:29:28,345:INFO:Shard ID None has connected to Gateway (Session ID: e00cdee4715bbc11dad16a3a7bcf0066).
+2025-01-18 19:29:44,700:ERROR:HTTP error occurred: 402 Client Error: Payment Required for url: https://api.stability.ai/v2beta/stable-image/generate/sd3. Details: {'errors': ['You lack sufficient credits to make this request.  Please purchase more credits at https://platform.stability.ai/account/credits and try again.'], 'id': 'd581791a25446b7c519f0a419e7de3e1', 'name': 'payment_required'}
+2025-01-18 19:45:18,514:INFO:Shard ID None has successfully RESUMED session e00cdee4715bbc11dad16a3a7bcf0066.
+2025-01-18 22:08:50,668:INFO:Shard ID None has successfully RESUMED session e00cdee4715bbc11dad16a3a7bcf0066.
+2025-01-18 22:55:23,403:WARNING:Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-01-18 22:55:24,393:INFO:Shard ID None session has been invalidated.
+2025-01-18 22:55:30,787:INFO:Shard ID None has connected to Gateway (Session ID: fd6315ec6b7181aad8de537c33b6f689).
+2025-01-18 23:16:28,264:INFO:Shard ID None has successfully RESUMED session fd6315ec6b7181aad8de537c33b6f689.
+2025-01-19 01:13:08,165:INFO:Shard ID None has successfully RESUMED session fd6315ec6b7181aad8de537c33b6f689.
+2025-03-20 11:50:59,508:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-20 11:50:59,511:INFO:logging in using static token
+2025-03-20 11:51:01,784:INFO:Shard ID None has connected to Gateway (Session ID: 62a47ce5074368f997acce0c43076a54).
+2025-03-20 11:52:16,227:ERROR:HTTP error occurred: 402 Client Error: Payment Required for url: https://api.stability.ai/v2beta/stable-image/generate/sd3. Details: {'errors': ['You lack sufficient credits to make this request.  Please purchase more credits at https://platform.stability.ai/account/credits and try again.'], 'id': 'f20c6f6590a98acafcb38aeab48a0eb1', 'name': 'payment_required'}
+2025-03-20 11:53:04,717:ERROR:An error occurred in Gemini Chat: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-03-20 11:55:50,034:ERROR:An error occurred in Gemini Chat: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-03-20 11:56:00,455:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-20 11:56:00,457:INFO:logging in using static token
+2025-03-20 11:56:02,457:INFO:Shard ID None has connected to Gateway (Session ID: bc96988b6f0a694d816a4dad3423310a).
+2025-03-20 11:56:31,169:ERROR:An error occurred in Gemini Chat: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-03-20 12:00:34,475:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-20 12:00:34,478:INFO:logging in using static token
+2025-03-20 12:00:36,989:INFO:Shard ID None has connected to Gateway (Session ID: adc55edd916f60b682255426045c0ea8).
+2025-03-20 12:37:39,778:INFO:Shard ID None has successfully RESUMED session adc55edd916f60b682255426045c0ea8.
+2025-03-23 21:19:20,102:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 21:23:02,068:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 21:23:02,212:INFO:logging in using static token
+2025-03-23 21:23:04,541:INFO:Shard ID None has connected to Gateway (Session ID: f982a3c9a8dab3fd07696730594cdc66).
+2025-03-23 21:23:06,552:INFO:Bot started as race_car#5242
+2025-03-23 21:24:40,261:ERROR:An error occurred: HTTP error in retro_image: 422 Client Error:  for url: https://api.retrodiffusion.ai/v1/inferences. Details: {'detail': [{'loc': ['header', 'X-RD-Token'], 'msg': 'field required', 'type': 'value_error.missing'}]}
+2025-03-23 21:26:51,748:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 21:26:51,927:ERROR:An error occurred: RetroAI API key not found in environment variables
+2025-03-23 21:26:51,945:INFO:logging in using static token
+2025-03-23 21:26:53,758:INFO:Shard ID None has connected to Gateway (Session ID: 563f64b92361806669bb7e2fd101cd7c).
+2025-03-23 21:26:55,795:INFO:Bot started as race_car#5242
+2025-03-23 21:30:28,273:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 21:30:28,478:INFO:logging in using static token
+2025-03-23 21:30:30,833:INFO:Shard ID None has connected to Gateway (Session ID: 4d995e6c9a5e334acf7b4a9694bc0951).
+2025-03-23 21:30:32,847:INFO:Bot started as race_car#5242
+2025-03-23 21:31:04,681:ERROR:An error occurred: RetroAI Request - URL: https://api.retrodiffusion.ai/v1/inferences, Headers: {'X-RD-Token': 'REDACTED', 'Content-Type': 'application/json', 'Accept': 'application/json'}, Payload: {'model': 'RD_FLUX', 'width': 512, 'height': 512, 'prompt': 'a Funky Cow with Trippy patterns', 'num_images': 1}
+2025-03-23 22:02:20,209:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 22:02:20,230:INFO:logging in using static token
+2025-03-23 22:02:22,385:INFO:Shard ID None has connected to Gateway (Session ID: f3c95fcebddd83739f1a739dd500eac5).
+2025-03-23 22:02:24,404:INFO:Bot started as race_car#5242
+2025-03-23 22:07:34,868:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 22:07:34,890:INFO:logging in using static token
+2025-03-23 22:07:37,527:INFO:Shard ID None has connected to Gateway (Session ID: 02b56230ee6cd88c7b0e7b69ea6b78a6).
+2025-03-23 22:07:39,566:INFO:Bot started as race_car#5242
+2025-03-23 22:36:03,095:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 22:36:03,115:INFO:logging in using static token
+2025-03-23 22:36:05,405:INFO:Shard ID None has connected to Gateway (Session ID: 9eb72182981c5119d747c7732a2a76d9).
+2025-03-23 22:36:07,627:INFO:Bot started as race_car#5242
+2025-03-23 22:38:49,054:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 22:38:49,080:INFO:logging in using static token
+2025-03-23 22:38:51,132:INFO:Shard ID None has connected to Gateway (Session ID: 856515ef055d4aca2ac0ee01a3839713).
+2025-03-23 22:38:53,159:INFO:Bot started as race_car#5242
+2025-03-23 22:40:28,366:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-03-23 22:40:28,395:INFO:logging in using static token
+2025-03-23 22:40:30,166:INFO:Shard ID None has connected to Gateway (Session ID: 42d68f9791f4c1576902361b52cddaac).
+2025-03-23 22:40:32,184:INFO:Bot started as race_car#5242
