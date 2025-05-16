@@ -63,7 +63,7 @@ async def react_with_random_emoji(message):
 async def on_ready():
     bot.start_time = datetime.datetime.now()
     print(f'Logged in as {bot.user}')
-    await bot.change_presence(activity=discord.Game(name="with commands"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="!help for commands"))
     logging.info(f'Bot started as {bot.user}')
 
 # Event: Message received
@@ -103,13 +103,17 @@ async def on_message_edit(before, after):
 @bot.event
 async def on_command_error(ctx, error):
     await react_with_random_emoji(ctx.message)
-    if isinstance(error, commands.CommandNotFound):
-        await ctx.send("Sorry, I don't recognize that command. Type !help to see available commands.")
-    elif isinstance(error, commands.MissingRequiredArgument):
-        await ctx.send("Oops! You're missing some required arguments. Type !help <command> for more info.")
-    else:
-        await ctx.send(f"An error occurred: {str(error)}")
-        log_error(error)
+    error_messages = {
+        commands.CommandNotFound: "Command not found. Use !help to see available commands.",
+        commands.MissingRequiredArgument: "Missing required argument. Use !help <command> for usage.",
+        commands.BadArgument: "Invalid argument provided. Please check the command usage.",
+        commands.MissingPermissions: "You don't have permission to use this command.",
+        commands.BotMissingPermissions: "I don't have the required permissions to execute this command."
+    }
+    
+    error_message = error_messages.get(type(error), f"An error occurred: {str(error)}")
+    await ctx.send(error_message)
+    log_error(error)
 
 async def load_extensions():
     await bot.load_extension('cogs.image_generation')

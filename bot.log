@@ -91,3 +91,7 @@ message: "API key expired. Please renew the API key."
 2025-03-23 22:40:28,395:INFO:logging in using static token
 2025-03-23 22:40:30,166:INFO:Shard ID None has connected to Gateway (Session ID: 42d68f9791f4c1576902361b52cddaac).
 2025-03-23 22:40:32,184:INFO:Bot started as race_car#5242
+2025-05-10 06:28:54,591:WARNING:PyNaCl is not installed, voice will NOT be supported
+2025-05-10 06:28:54,969:INFO:logging in using static token
+2025-05-10 06:28:57,206:INFO:Shard ID None has connected to Gateway (Session ID: 15342576fd46e567309d123724979b20).
+2025-05-10 06:28:59,250:INFO:Bot started as race_car#5242
